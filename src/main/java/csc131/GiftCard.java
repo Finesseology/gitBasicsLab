@@ -63,7 +63,7 @@ public class GiftCard
         
         if (amount < 0.0)
         {
-            result = "Invalid Transaction";
+            result = "The amount on the card is not enough for this transaction.";
         }
         else
         {
